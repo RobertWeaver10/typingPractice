@@ -1,0 +1,48 @@
+.pre-game-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instructions {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.countDownTimer {
+    font-size: 64pt;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+
+.randomQuote {
+    padding-left: 40px;
+}
+
+.quoteTable {
+    table-layout: fixed;
+    padding: 50px;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 15pt;
+    border-collapse: collapse;
+}
+
+td {
+    height: 10px;
+    width: 10px;
+    white-space: nowrap;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.textBox {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 100%;
+}
+
+#userInputText{
+    width: 50%;
+    height: 40px;
+    font-size: 12pt;
+}
