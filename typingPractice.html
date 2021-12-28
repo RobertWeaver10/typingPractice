@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Typing Practice</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="typingAppStyles.css">
+    </head>
+    <body>
+        <div class="pre-game-text">
+            <div class="instructions">
+                <h1 id="gametitle">Typing practice</h1>
+                <h3>Instructions:</h3>
+                <p>
+                    1) Click button to get quote<br>
+                    2) After 5 seconds from clicking the button the user can begin typing<br>
+                    3) Upon a typo, the game ends, user is alerted they made a typo, and page refreshes<br>
+                    4) Upon successful completion, the game ends, user is alerted of their speed, and page refreshes<br>
+                    5) To get a new random quote refresh page before clicking button again
+                </p>
+                <input id="testButton" type="button" value="Click for random quote">
+            </div>
+            <div class="countDownTimer">5</div>
+        </div>
+        
+        <div class="randomQuote">
+            <table class="quoteTable"></table>
+        </div>
+        
+        <div class="textBox"></div>
+        <script src="typingApp.js" async defer></script>
+    </body>
+</html>
